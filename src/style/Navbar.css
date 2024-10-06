@@ -1,0 +1,42 @@
+/* Navbar Container */
+nav {
+  background-color: #1a202c; /* Warna latar belakang navbar */
+  padding: 1rem; /* Padding di sekeliling navbar */
+  color: white; /* Warna teks navbar */
+}
+
+/* Container di dalam navbar */
+nav .container {
+  max-width: 1200px; /* Maksimal lebar container */
+  margin: 0 auto; /* Center align */
+  display: flex;
+  justify-content: space-between; /* Mengatur jarak antara title dan link */
+  align-items: center; /* Mengatur alignment vertikal ke tengah */
+}
+
+/* Title */
+nav h1 {
+  font-size: 1.5rem; /* Ukuran font title */
+  font-weight: bold; /* Membuat title tebal */
+  color: #f7fafc; /* Warna teks title */
+}
+
+/* List items pada navbar */
+nav ul {
+  list-style: none; /* Menghilangkan bullet points */
+  display: flex; /* Membuat daftar horizontal */
+  gap: 1rem; /* Jarak antar item */
+}
+
+/* Link pada navbar */
+nav ul li a {
+  text-decoration: none; /* Menghilangkan underline */
+  color: #f7fafc; /* Warna link */
+  font-size: 1rem; /* Ukuran font link */
+  transition: color 0.3s ease; /* Transisi pada hover */
+}
+
+/* Hover state untuk link */
+nav ul li a:hover {
+  color: #e2e8f0; /* Warna link saat di-hover */
+}

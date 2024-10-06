@@ -1,0 +1,77 @@
+/* Background hitam untuk body */
+body {
+  background-color: #1f1f1f; /* Warna hitam untuk background */
+  color: #ffffff; /* Teks berwarna putih */
+}
+
+/* Styling tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2c2c2c; /* Warna background tabel lebih gelap */
+  color: #ffffff; /* Warna teks di tabel */
+  margin-top: 20px;
+}
+
+/* Header tabel dengan warna abu-abu gelap */
+th {
+  background-color: #333333;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #444444; /* Border abu-abu */
+}
+
+/* Sel tabel */
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444444; /* Border abu-abu */
+}
+
+/* Gaya untuk gambar bendera */
+td img {
+  width: 50px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Gaya link Map */
+a {
+  color: #1e90ff; /* Warna biru untuk link */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mengatur agar tabel berada di tengah */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling untuk sel yang berisi Ya/Tidak */
+td.independent {
+  text-align: center;
+}
+
+#h2 {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center; /* Mengatur teks agar terpusat */
+}
+
+/* Jika ingin memastikan teks di dalam div juga terpusat */
+h2 {
+  text-align: center; /* Mengatur teks di dalam div agar terpusat */
+}
+
+form {
+  text-align: center;
+}
